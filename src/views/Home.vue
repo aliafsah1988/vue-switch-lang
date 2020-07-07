@@ -14,7 +14,7 @@ export default {
   },
   methods: {
     onChange(lang) {
-      alert(`Selected language is: ${lang}`);
+      alert(`Selected language is: ${lang.title}`);
     }
   },
   data() {
@@ -29,12 +29,12 @@ export default {
           flag: "gb"
         },
         {
-          title: "fa",
-          flag: "ir"
-        },
-        {
           title: "de",
           flag: "de"
+        },
+        {
+          title: "fa",
+          flag: "ir"
         }
       ]
     };
