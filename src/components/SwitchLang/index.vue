@@ -109,9 +109,4 @@ export default {
   background-color: royalblue;
   background: royalblue;
 }
-
-.multiselect__option--selected.multiselect__option--highlight {
-  background-color: royalblue;
-  background: royalblue;
-}
 </style>

@@ -14,7 +14,7 @@ export default {
   },
   methods: {
     onChange(lang) {
-      alert(`Selected language is: ${lang.title}`);
+      alert(`Selected language is: ${lang}`);
     }
   },
   data() {
@@ -50,5 +50,14 @@ export default {
 }
 .vue-switch-lang {
   width: 30%;
+}
+
+.multiselect__option--selected {
+  background-color: red;
+}
+
+.multiselect__option--highlight {
+  background-color: green;
+  background: green;
 }
 </style>
