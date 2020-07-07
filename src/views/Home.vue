@@ -14,7 +14,7 @@ export default {
   },
   methods: {
     onChange(lang) {
-      console.log(lang);
+      alert(`Selected language is: ${lang.title}`);
     }
   },
   data() {
