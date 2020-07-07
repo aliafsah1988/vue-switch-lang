@@ -1,0 +1,43 @@
+.multi-select-language {
+    color: #e8e8e8;
+    width: 80px;
+    height: 40px !important;
+  }
+  .multiselect__select {
+    border: 1px solid #e8e8e8;
+    background: #fff;
+    color: #e8e8e8;
+    height: 40px;
+  }
+  
+  .multiselect__tags {
+    height: 40px !important;
+    min-height: 30px !important;
+    padding: 0;
+  }
+  
+  .multi-select-language img {
+    height: 25px;
+    width: 25px;
+    background-color: transparent;
+  }
+  
+  .multi-select-language .option__title {
+    color: #e8e8e8;
+    background-color: transparent;
+  }
+  
+  .multiselect__single {
+    width: 28px;
+    height: 28px;
+    margin: 0 !important;
+  }
+  
+  .multiselect__option--selected {
+    background-color: grey;
+  }
+  
+  .multiselect__option--highlight {
+    background-color: royalblue;
+    background: royalblue;
+  }
