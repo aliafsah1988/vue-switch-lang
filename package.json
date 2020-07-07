@@ -5,7 +5,11 @@
     "email": "ali.afsah1988@gmail.com",
     "url": "http://aliafsah.com"
   },
-  "version": "0.1.2",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/aliafsah1988/vue-switch-lang.git"
+  },
+  "version": "0.2.0",
   "private": false,
   "main": "./dist/vue-switch-lang.common.js",
   "license": "ISC",
