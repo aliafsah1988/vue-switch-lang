@@ -17,8 +17,7 @@ npm i vue-switch-lang
 
 - Locally:
 <br/>
-    In your parent component:
-<br/>
+In your parent component:
 
 ```vue
 <template>
