@@ -6,16 +6,15 @@ A small and easy to use component to switch between languages in a dropdown menu
 https://aliafsah1988.github.io/vue-switch-lang/
 <br/>
 
+## How to use
+1. Intall it with npm:
 <br/>
 
-## How to use
-1) Intall it with npm:
-<br/>
 ```bash
 npm i vue-switch-lang
 ```
 <br/>
-2) You can use it:
+2. You can use it:
 <br/>
 - Locally:
 <br/>
@@ -80,10 +79,8 @@ export default {
 <br/>
 - Gobally:
 <br/>
-<br/>
 In the file that you instantiate Vue (usually main.js):
 <br />
-
 
 ```vue
 import Vue from "vue";
