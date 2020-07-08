@@ -13,7 +13,6 @@ https://aliafsah1988.github.io/vue-switch-lang/
 ```bash
 npm i vue-switch-lang
 ```
-<br/>
 2. You can use it:
 <br/>
 - Locally:
@@ -76,11 +75,9 @@ export default {
 }
 </style>
 ```
-<br/>
 - Gobally:
 <br/>
 In the file that you instantiate Vue (usually main.js):
-<br />
 
 ```vue
 import Vue from "vue";
