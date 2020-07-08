@@ -8,16 +8,16 @@ https://aliafsah1988.github.io/vue-switch-lang/
 
 ## How to use
 1. Intall it with npm:
-<br/>
 
 ```bash
 npm i vue-switch-lang
 ```
 2. You can use it:
 <br/>
+
 - Locally:
 <br/>
-In your parent component:
+    In your parent component:
 <br/>
 
 ```vue
