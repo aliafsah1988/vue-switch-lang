@@ -1,5 +1,5 @@
 # vue-switch-lang
-A small and easy to use component to switch between languages in a dropdown menu, created by Vue.js. 
+A small and easy-to-use component to switch between languages in a dropdown menu, created by Vue.js. 
 <br/>
 
 ## Demo
