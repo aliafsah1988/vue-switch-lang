@@ -8,10 +8,10 @@
     :show-labels="false"
     @select="onSelect"
   >
-    <div slot="singleLabel" slot-scope="props">
+    <div v-if="props && props.option" slot="singleLabel" slot-scope="props">
       <country-flag :country="props.option.flag" />
     </div>
-    <div slot="option" slot-scope="props">
+    <div v-if="props && props.option" slot="option" slot-scope="props">
       <country-flag :country="props.option.flag" />
     </div>
   </multiselect>
@@ -49,7 +49,7 @@ export default {
       }
     }
   },
-  mounted() {
+  created() {
     this.selected = this.initLang;
   },
   methods: {
