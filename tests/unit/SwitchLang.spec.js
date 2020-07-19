@@ -127,4 +127,44 @@ describe("SwitchLang.vue", () => {
     expect(labelListEmpty.exists()).toBe(true);
     expect(labelListEmpty.text()).toBe("List is empty.");
   });
+
+  it("emits correct selected on click", async () => {
+    const initLang = {
+      title: "de",
+      flag: "de"
+    };
+
+    const wrapper = mount(SwitchLang, {
+      propsData: { initLang, options }
+    });
+
+    wrapper
+      .find(".multiselect")
+      .find(".multiselect__select")
+      .trigger("click");
+
+    await wrapper.vm.$nextTick();
+
+    wrapper
+      .find(".multiselect")
+      .find(".multiselect__content-wrapper")
+      .find(".multiselect__content")
+      .findAll(".multiselect__element")
+      .at(1)
+      .find(".multiselect__option")
+      .find("div")
+      .find(".f-de")
+      .trigger("click");
+
+    await wrapper.vm.$nextTick();
+
+    // assert event has been emitted
+    expect(wrapper.emitted().changed).toBeTruthy();
+
+    // assert event count
+    expect(wrapper.emitted().changed.length).toBe(1);
+
+    // assert event payload
+    expect(wrapper.emitted().changed[0]).toEqual([{ flag: "de", title: "de" }]);
+  });
 });
